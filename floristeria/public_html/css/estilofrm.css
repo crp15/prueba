@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2017, 8:43:22 PM
+    Author     : Clariza
+*/
+
+form {
+    /* Sólo para centrar el formulario a la página */
+   margin: 0 auto;
+   width: 600px;
+   background-color: aquamarine;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+/*Agreguemos algo de espacio entre cada uno de los widgets del formulario*/
+form div {
+    margin-top: 1em;
+}
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+   display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input, textarea {
+    /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: #000;
+}
+textarea {
+    /* Para alinear campos de texto multilínea con sus labels */
+    vertical-align: middle;
+}
+  .button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 100px; /* mismo tamaño a todos los elementos label */
+}
+button {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .5em;
+}
+h1{
+    text-align: center;
+    }
+    
+    input:focus {
+  border: 2px solid #000;
+  background: #F3F3F3;
+}

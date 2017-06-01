@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="css/estilofrm.css">
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" />
+            </div>
+            <div>
+                <label for="tel">Teléfono:</label>
+                <input type="text" id="tel" />
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" />
+            </div>
+            <div>
+                <label for="asunto">Qué necesitas?</label>
+                <select id="asunto" name="asunto">
+                    <option value="" selected="selected">- selecciona -</option>
+                    <option value="comentar">Quiero afiliarme como cliente preferencial</option>
+                    <option value="Info">Solo quiero recibir Información sobre ofertas</option>
+                    <option value="entrega">Me interesa todo tipo de Información</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div> 
+
+            <div>
+                <label for="msg">Observación:</label>
+                <textarea id="msg" cols="40" rows="5"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Enviar su mensaje</button>
+            </div>
+        </form>
+    </body>
+</html>

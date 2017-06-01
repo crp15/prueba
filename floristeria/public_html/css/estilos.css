@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2017, 1:23:53 PM
+    Author     : Clariza
+*/
+#cabecera{
+    font-family: Broadway;
+    font-size: 40px;
+    text-align: center;
+    color:  blue;
+}
+ul li{
+    list-style-type: none;
+    background:  aquamarine;
+    font-weight: bold;
+    font-size: 20px;
+        display:inline;  
+        padding: 10px;
+        border-radius: 5px;
+            
+}
+.menu{
+  text-align: center;  
+}
+
+#cuerpo{
+    text-align: center;
+    font-family: Monotype corsiva;
+    font-size: 20px;
+}
+
+#pie
+{
+    background-color: aquamarine;
+    text-align: center;
+}
+a:hover{
+    color:red;
+    font-size: 21px;
+    text-decoration: none;
+    
+}
+div span{
+    font-family: Monotype corsiva;
+    color:  #999;
+}
